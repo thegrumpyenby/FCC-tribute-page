@@ -1,7 +1,7 @@
 # FreeCodeCamp — Certification Project #2
 Tribute page project created for FreeCodeCamp’s (New) Responsive Webdesign Bootcamp
 
-**Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks<br>
 I may be more of a Star Trek fan at the end of the day, but I thought Han Solo very much deserved a tribute page. ;)
 
 See [Free Code Camp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page) for details on what’s required to pass the tests for this project
