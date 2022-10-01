@@ -1,0 +1,181 @@
+body {
+  max-width: 100vw;
+  margin: 1.1em;
+  padding: 0.27em;
+  font-family: Tahoma, arial, sans-serif;
+  font-size: 18px;
+  background-color: black;
+  margin-bottom: 10em;
+}
+
+.heading-bkg {
+  color: #FFE81F;
+  max-width: 100vw;
+}
+
+#title {
+  font-family: Poller One;
+  font-size: 48px;
+  text-align: center;
+  }
+
+h3 {
+  font-family: Poller One;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 100%;
+}
+
+#img-div {
+  margin: auto;
+  max-width: 100%;  
+  background-color: #e9d3bb;
+  padding: 1em;
+  display: block;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 0.16em;
+  font-style: italic;
+}
+
+#tribute-info {
+  margin: auto;
+  margin-top: 2.22em;
+}
+
+.notables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: #e9d3bb;
+  
+}
+
+#imp-dates, #imp-achiev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+  }
+#imp-dates {
+  align-self: stretch;
+}
+
+#imp-dates h3, #imp-achiev h3 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 15%;
+  margin-bottom: 0;
+}
+
+#imp-achiev ul, #imp-dates ul {
+  list-style: none;
+  padding-top: 0.2em;
+  padding-left: 0;
+}
+
+#imp-achiev li, #imp-dates li {
+  text-align: center;
+}
+
+#CV {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.4em;
+  margin-top: 2.22em;
+}
+
+#CV li {
+  margin: 0 auto;
+  margin-top: 1em;
+  padding-left: 0.27em;
+  list-style: none;
+  color: white;
+}
+
+#CV li::before {
+  content: '\21E8';
+  color: #FFE81F;
+  padding-right: 0.27em;
+}
+
+#CV h3 {
+  color: #FFE81F;
+  text-align: center;
+  margin-top: 1.66em;
+}
+
+.date {
+  display: block;
+  float: right;
+  color: #FFE81F;
+  text-align: right;
+  vertical-align: top;
+}
+
+#quotes {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+  margin-top: 2.77em;
+}
+
+blockquote {
+  font-family: Poller One;
+  line-height: 2em;
+  padding-left: 0.55em;
+  position: relative;
+  border-left: groove 0.22em #FFE81F;
+}
+
+blockquote span {
+  float: right;
+}
+
+#more-info p {
+  width: 50%;
+  margin: auto;
+  margin-top: 2.77em;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  border: 0.055em groove #FFE81F;
+  padding: 0.277em;
+}
+
+#more-info a {
+  color: #FFE81F;
+}
+
+#more-info a:hover {
+  color: #d87c6c;
+}
+
+@media (max-width: 900px) {
+  .notables {
+    flex-direction: column;
+    align-items: center;
+  }
+  #quotes {
+    flex-direction: column;
+    padding-top: 1em;
+  }
+  #CV {
+    width: 100%;
+  }
+}
